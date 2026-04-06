@@ -33,6 +33,7 @@ const BlogSidebarPage = () => {
                             src="/images/blog/author-02.png"
                             alt="author"
                             fill
+                            sizes="40px"
                           />
                         </div>
                       </div>
@@ -116,6 +117,7 @@ const BlogSidebarPage = () => {
                         src="/images/blog/blog-details-01.jpg"
                         alt="image"
                         fill
+                        sizes="(max-width: 1024px) 100vw, 800px"
                         className="h-full w-full object-cover object-center"
                       />
                     </div>

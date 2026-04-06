@@ -9,8 +9,26 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "About",
+    title: "About Us",
     path: "/about",
+    newTab: false,
+  },
+  {
+    id: 11,
+    title: "Business",
+    path: "/business",
+    newTab: false,
+  },
+  {
+    id: 12,
+    title: "Career",
+    path: "/career",
+    newTab: false,
+  },
+  {
+    id: 13,
+    title: "Corporate Governance",
+    path: "/corporate-governance",
     newTab: false,
   },
   {
