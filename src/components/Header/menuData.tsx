@@ -10,39 +10,53 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "About Us",
-    path: "/about",
+    // path: "/about",
     newTab: false,
+    submenu: [
+      {
+        id: 21,
+        title: "Snapshot",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 22,
+        title: "Contact Page",
+        path: "/contact",
+        newTab: false,
+      },
+    ]
   },
   {
-    id: 11,
+    id: 6,
     title: "Business",
     path: "/business",
     newTab: false,
-  },
+  },  
   {
-    id: 12,
-    title: "Career",
-    path: "/career",
-    newTab: false,
-  },
-  {
-    id: 13,
+    id: 7,
     title: "Corporate Governance",
     path: "/corporate-governance",
     newTab: false,
   },
   {
-    id: 33,
-    title: "Blog",
-    path: "/blog",
+    id: 8,
+    title: "Career",
+    path: "/career",
     newTab: false,
   },
-  {
-    id: 3,
-    title: "Support",
-    path: "/contact",
-    newTab: false,
-  },
+  // {
+  //   id: 33,
+  //   title: "Blog",
+  //   path: "/blog",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 3,
+  //   title: "Support",
+  //   path: "/contact",
+  //   newTab: false,
+  // },
   {
     id: 4,
     title: "Pages",
