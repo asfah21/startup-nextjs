@@ -3,11 +3,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
-import menuData from "./menuData";
+import LanguageSwitcher from "./LanguageSwitcher";
+import getMenuData from "./menuData";
+import { useTranslation } from "@/contexts/LanguageContext";
 
 const Header = () => {
+  const { t } = useTranslation();
+  const menuData = getMenuData(t);
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
@@ -26,6 +30,13 @@ const Header = () => {
     }
   };
 
+  const [openIndex, setOpenIndex] = useState(-1);
+  const menuRef = useRef<HTMLUListElement>(null);
+
+  const handleSubmenu = (index) => {
+    setOpenIndex(openIndex === index ? -1 : index);
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
     handleStickyNavbar();
@@ -34,12 +45,18 @@ const Header = () => {
     };
   }, []);
 
-  const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index) => {
-    setOpenIndex(openIndex === index ? -1 : index);
-  };
+  // Close submenu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setOpenIndex(-1);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
-  const usePathName = usePathname(); // tetap ada kalau nanti mau dipakai lagi
+  const usePathName = usePathname();
 
   return (
     <>
@@ -52,7 +69,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center">
-            <div className="w-60 max-w-full px-4">
+            <div className="w-52 max-w-full px-4">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -66,7 +83,7 @@ const Header = () => {
                       : "/images/logo/logo-2.svg"
                   }
                   alt="logo"
-                  width={140}
+                  width={120}
                   height={30}
                   className="w-full"
                 />
@@ -94,7 +111,8 @@ const Header = () => {
                             : "top-[-8px] -rotate-45"
                           : ""
                       } ${
-                        navbarOpen || sticky
+
+                        sticky
                           ? "bg-black dark:bg-white"
                           : "bg-white"
                       }`}
@@ -111,12 +129,29 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-8">
+                  <ul ref={menuRef} className="block lg:flex lg:space-x-6">
                     {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
+                      <li
+                        key={index}
+                        className="group relative"
+                        onMouseEnter={() => {
+                          if (window.innerWidth >= 992) {
+                            setOpenIndex(index);
+                          }
+                        }}
+                        onMouseLeave={() => {
+                          if (window.innerWidth >= 992) {
+                            setOpenIndex(-1);
+                          }
+                        }}
+                      >
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
+                            onClick={() => {
+                              setOpenIndex(-1);
+                              setNavbarOpen(false);
+                            }}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               navbarOpen || sticky
                                 ? "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
@@ -127,37 +162,50 @@ const Header = () => {
                           </Link>
                         ) : (
                           <>
-                            <p
+                            <button
                               onClick={() => handleSubmenu(index)}
-                              className={`flex cursor-pointer items-center justify-between py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                              className={`flex w-full cursor-pointer items-center justify-between py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:justify-start lg:gap-2 ${
                                 navbarOpen || sticky
-                                  ? "text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white"
-                                  : "text-white group-hover:text-white/80"
+                                  ? "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                  : "text-white hover:text-white/80"
                               }`}
                             >
                               {menuItem.title}
-                              <span className="pl-3">
-                                <svg width="25" height="24" viewBox="0 0 25 24">
+                              <span className="pl-1">
+                                <svg
+                                  className={`h-4 w-4 transition-transform ${
+                                    openIndex === index ? "rotate-180" : ""
+                                  }`}
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
                                   <path
-                                    fillRule="evenodd"
-                                    clipRule="evenodd"
-                                    d="M6.29289 8.8427C6.68342 8.45217 7.31658 8.45217 7.70711 8.8427L12 13.1356L16.2929 8.8427C16.6834 8.45217 17.3166 8.45217 17.7071 8.8427C18.0976 9.23322 18.0976 9.86639 17.7071 10.2569L12 15.964L6.29289 10.2569C5.90237 9.86639 5.90237 9.23322 6.29289 8.8427Z"
-                                    fill="currentColor"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M19 9l-7 7-7-7"
                                   />
                                 </svg>
                               </span>
-                            </p>
+                            </button>
 
                             <div
-                              className={`submenu dark:bg-dark relative top-full left-0 rounded-sm bg-white transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
-                                openIndex === index ? "block" : "hidden"
+                              className={`submenu dark:border-dark-3 dark:bg-gray-dark relative left-0 mt-0 overflow-hidden transition-all duration-300 lg:absolute lg:top-[110%] lg:w-[250px] lg:shadow-lg z-[100] lg:rounded-xl lg:border lg:border-stroke lg:bg-white lg:p-1 ${
+                                openIndex === index
+                                  ? "max-h-[1000px] visible opacity-100 lg:top-full"
+                                  : "max-h-0 invisible opacity-0 lg:top-[120%] lg:max-h-none"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem, index) => (
+                              {menuItem.submenu.map((submenuItem, subIndex) => (
                                 <Link
                                   href={submenuItem.path}
-                                  key={index}
-                                  className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm lg:px-3 dark:text-white/70 dark:hover:text-white"
+                                  key={subIndex}
+                                  onClick={() => {
+                                    setOpenIndex(-1);
+                                    setNavbarOpen(false);
+                                  }}
+                                  className="text-body-color hover:bg-gray-100 dark:text-white/70 dark:hover:bg-white/5 block rounded-lg px-8 py-2 text-sm transition-all hover:text-primary dark:hover:text-white lg:px-4"
                                 >
                                   {submenuItem.title}
                                 </Link>
@@ -184,7 +232,10 @@ const Header = () => {
                 >
                   Sign Up
                 </Link> */}
-                <div>{/* <ThemeToggler /> */}</div>
+                <div className="flex items-center">
+                  {/* <ThemeToggler /> */}
+                  <LanguageSwitcher sticky={sticky} />
+                </div>
               </div>
             </div>
           </div>

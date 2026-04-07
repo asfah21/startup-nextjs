@@ -1,0 +1,45 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "all_rights_reserved": "All Rights Reserved."
+  },
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "snapshot": "Snapshot",
+    "contact": "Contact Page",
+    "business": "Business",
+    "corporate_governance": "Corporate Governance",
+    "career": "Career",
+    "pages": "Pages",
+    "about_page": "About Page",
+    "contact_page": "Contact Page",
+    "blog_grid_page": "Blog Grid Page",
+    "blog_sidebar_page": "Blog Sidebar Page",
+    "blog_details_page": "Blog Details Page",
+    "signin_page": "Sign In Page",
+    "signup_page": "Sign Up Page",
+    "error_page": "Error Page"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "snapshot": "Snapshot",
+    "contact": "Contact",
+    "business": "Business",
+    "corporate_governance": "Corporate Governance",
+    "career": "Career"
+  },
+  "about": {
+    "title": "Driving Reliable Solutions for Sustainable Growth.",
+    "paragraph": "AIM Group provides integrated contracting and project support services for the infrastructure and resource sectors. With a strong commitment to operational excellence, safety standards, and good governance practices, AIM Group ensures reliable and efficient project delivery. The company plays an active role in supporting contractor operations at Leighton Pomalaa, contributing to consistent performance and sustainable development."
+  },
+  "footer": {
+    "copyright": "© 2026 AIM Group - All Rights Reserved."
+  },
+  "contact": {
+    "title": "Contact Page",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+  }
+}

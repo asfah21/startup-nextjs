@@ -1,0 +1,45 @@
+{
+  "common": {
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "all_rights_reserved": "版权所有。"
+  },
+  "header": {
+    "home": "首页",
+    "about": "关于我们",
+    "snapshot": "概况",
+    "contact": "联系页面",
+    "business": "业务",
+    "corporate_governance": "公司治理",
+    "career": "职业生涯",
+    "pages": "页面",
+    "about_page": "关于页面",
+    "contact_page": "联系页面",
+    "blog_grid_page": "博客网格页面",
+    "blog_sidebar_page": "博客侧边栏页面",
+    "blog_details_page": "博客详情页面",
+    "signin_page": "登录页面",
+    "signup_page": "注册页面",
+    "error_page": "错误页面"
+  },
+  "breadcrumb": {
+    "home": "首页",
+    "snapshot": "概况",
+    "contact": "联系我们",
+    "business": "业务",
+    "corporate_governance": "公司治理",
+    "career": "职业生涯"
+  },
+  "about": {
+    "title": "推动可靠解决方案，实现可持续增长。",
+    "paragraph": "AIM 集团为基础设施和资源领域提供集成承包和项目支持服务。凭借对卓越运营、安全标准和良好治理实践的坚定承诺，AIM 集团确保可靠且高效的项目交付。公司在支持 Leighton Pomalaa 的承包商运营中发挥着积极作用，为持续的业绩和可持续发展做出贡献。"
+  },
+  "footer": {
+    "copyright": "© 2026 AIM Group - 保留所有权利。"
+  },
+  "contact": {
+    "title": "联系页面",
+    "description": "请联系我们了解更多关于我们的服务和项目的信息。我们随时为您提供基础设施和资源需求方面的帮助。"
+  }
+}

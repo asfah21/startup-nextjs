@@ -1,116 +1,104 @@
 import { Menu } from "@/types/menu";
 
-const menuData: Menu[] = [
+const getMenuData = (t: (key: string) => string): Menu[] => [
   {
     id: 1,
-    title: "Home",
+    title: t("header.home"),
     path: "/",
     newTab: false,
   },
   {
     id: 2,
-    title: "About Us",
-    // path: "/about",
+    title: t("header.about"),
     newTab: false,
     submenu: [
       {
         id: 21,
-        title: "Snapshot",
+        title: t("header.snapshot"),
         path: "/about",
         newTab: false,
       },
       {
         id: 22,
-        title: "Contact Page",
+        title: t("header.contact"),
         path: "/contact",
         newTab: false,
       },
-    ]
+    ],
   },
   {
     id: 6,
-    title: "Business",
+    title: t("header.business"),
     path: "/business",
     newTab: false,
-  },  
+  },
   {
     id: 7,
-    title: "Corporate Governance",
+    title: t("header.corporate_governance"),
     path: "/corporate-governance",
     newTab: false,
   },
   {
     id: 8,
-    title: "Career",
+    title: t("header.career"),
     path: "/career",
     newTab: false,
   },
-  // {
-  //   id: 33,
-  //   title: "Blog",
-  //   path: "/blog",
-  //   newTab: false,
-  // },
-  // {
-  //   id: 3,
-  //   title: "Support",
-  //   path: "/contact",
-  //   newTab: false,
-  // },
   {
     id: 4,
-    title: "Pages",
+    title: t("header.pages"),
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "About Page",
+        title: t("header.about_page"),
         path: "/about",
         newTab: false,
       },
       {
         id: 42,
-        title: "Contact Page",
+        title: t("header.contact_page"),
         path: "/contact",
         newTab: false,
       },
       {
         id: 43,
-        title: "Blog Grid Page",
+        title: t("header.blog_grid_page"),
         path: "/blog",
         newTab: false,
       },
       {
         id: 44,
-        title: "Blog Sidebar Page",
+        title: t("header.blog_sidebar_page"),
         path: "/blog-sidebar",
         newTab: false,
       },
       {
         id: 45,
-        title: "Blog Details Page",
+        title: t("header.blog_details_page"),
         path: "/blog-details",
         newTab: false,
       },
       {
         id: 46,
-        title: "Sign In Page",
+        title: t("header.signin_page"),
         path: "/signin",
         newTab: false,
       },
       {
         id: 47,
-        title: "Sign Up Page",
+        title: t("header.signup_page"),
         path: "/signup",
         newTab: false,
       },
       {
         id: 48,
-        title: "Error Page",
+        title: t("header.error_page"),
         path: "/error",
         newTab: false,
       },
     ],
   },
 ];
-export default menuData;
+
+export default getMenuData;

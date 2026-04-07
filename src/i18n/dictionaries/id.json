@@ -1,0 +1,45 @@
+{
+  "common": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "all_rights_reserved": "Hak Cipta Dilindungi."
+  },
+  "header": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "snapshot": "Snapshot",
+    "contact": "Halaman Kontak",
+    "business": "Bisnis",
+    "corporate_governance": "Tata Kelola Perusahaan",
+    "career": "Karir",
+    "pages": "Halaman",
+    "about_page": "Halaman Tentang",
+    "contact_page": "Halaman Kontak",
+    "blog_grid_page": "Halaman Blog Grid",
+    "blog_sidebar_page": "Halaman Blog Sidebar",
+    "blog_details_page": "Halaman Detail Blog",
+    "signin_page": "Halaman Masuk",
+    "signup_page": "Halaman Daftar",
+    "error_page": "Halaman Error"
+  },
+  "breadcrumb": {
+    "home": "Beranda",
+    "snapshot": "Snapshot",
+    "contact": "Kontak",
+    "business": "Bisnis",
+    "corporate_governance": "Tata Kelola Perusahaan",
+    "career": "Karir"
+  },
+  "about": {
+    "title": "Mendorong Solusi Handal untuk Pertumbuhan Berkelanjutan.",
+    "paragraph": "AIM Group menyediakan layanan kontrak terintegrasi dan dukungan proyek untuk sektor infrastruktur dan sumber daya. Dengan komitmen kuat terhadap keunggulan operasional, standar keselamatan, dan praktik tata kelola yang baik, AIM Group memastikan pengiriman proyek yang andal dan efisien. Perusahaan memainkan peran aktif dalam mendukung operasi kontraktor di Leighton Pomalaa, berkontribusi pada kinerja yang konsisten dan pengembangan berkelanjutan."
+  },
+  "footer": {
+    "copyright": "© 2026 AIM Group - Hak Cipta Dilindungi."
+  },
+  "contact": {
+    "title": "Halaman Kontak",
+    "description": "Hubungi kami untuk informasi lebih lanjut mengenai layanan dan proyek kami. Kami siap membantu kebutuhan infrastruktur dan sumber daya Anda."
+  }
+}
