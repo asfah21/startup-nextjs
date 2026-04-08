@@ -33,13 +33,86 @@
   },
   "about": {
     "title": "推动可靠解决方案，实现可持续增长。",
-    "paragraph": "AIM 集团为基础设施和资源领域提供集成承包和项目支持服务。凭借对卓越运营、安全标准和良好治理实践的坚定承诺，AIM 集团确保可靠且高效的项目交付。公司在支持 Leighton Pomalaa 的承包商运营中发挥着积极作用，为持续的业绩和可持续发展做出贡献。"
-  },
-  "footer": {
-    "copyright": "© 2026 AIM Group - 保留所有权利。"
+    "paragraph": "AIM 集团为基础设施和资源领域提供集成承包和项目支持服务。凭借对卓越运营、安全标准和良好治理实践的坚定承诺，AIM 集团确保可靠且高效的项目交付。公司在支持 Leighton Pomalaa 的承包商运营中发挥着积极作用，为持续的业绩和可持续发展做出贡献。",
+    "breadcrumb_title": "概况",
+    "breadcrumb_description": "进一步了解我们的历程、愿景以及在为基础设施和资源行业提供最佳解决方案方面的承诺。"
   },
   "contact": {
     "title": "联系页面",
     "description": "请联系我们了解更多关于我们的服务和项目的信息。我们随时为您提供基础设施和资源需求方面的帮助。"
+  },
+  "hero": {
+    "slide1": {
+      "title": "助力可持续未来",
+      "description": "致力于构建支持长期环境和社会进步的解决方案。"
+    },
+    "slide2": {
+      "title": "为明天创新",
+      "description": "通过尖端技术和可持续实践推动创新。"
+    },
+    "slide3": {
+      "title": "建设强大社区",
+      "description": "通过社区参与和协作伙伴关系创造持久影响。"
+    }
+  },
+  "business": {
+    "breadcrumb_title": "业务",
+    "breadcrumb_description": "在 PT AIM，我们致力于在各个行业提供创新且可持续的商业解决方案。",
+    "section_title": "我们的业务领域",
+    "section_description": "我们专注于提供端到端的解决方案，赋能机构和企业发挥最大潜力。",
+    "domain1_title": "基础设施",
+    "domain1_description": "以可靠且可持续的基础设施项目建设现代社会的支柱。",
+    "domain2_title": "技术服务",
+    "domain2_description": "利用尖端人工智能和数据分析解决复杂的运营挑战。",
+    "domain3_title": "咨询",
+    "domain3_description": "提供专业战略建议，帮助企业应对不断变化的市场格局。"
+  },
+  "career": {
+    "breadcrumb_title": "职业生涯",
+    "breadcrumb_description": "加入一个重视创新、诚信与可持续发展的团队，与 AIM集团 共同成长。",
+    "section_title": "为什么和我们共事？",
+    "section_description": "我们赋能员工成长和创新，提供一个支持性环境，让想法得以蓬勃发展。",
+    "benefit1_title": "创新优先",
+    "benefit1_description": "参与不断拓展可能性边界的尖端项目。",
+    "benefit2_title": "职业发展",
+    "benefit2_description": "我们通过持续学习和发展项目投资我们的人才。",
+    "benefit3_title": "包容文化",
+    "benefit3_description": "加入一个重视独特视角和协作精神的多元化团队。",
+    "openings_title": "现有职位",
+    "openings_description": "加入我们在科拉卡 Pomalaa 不断扩大的团队。我们致力于卓越和可持续发展。",
+    "send_cv": "发送简历",
+    "email_instruction": "或通过电子邮件将您的简历发送至：recruitment@aimgroup.id"
+  },
+  "cg": {
+    "breadcrumb_title": "公司治理",
+    "breadcrumb_description": "在 PT AIM，我们在所有商业事务和领导行动中将诚信、责任和透明度放在首位。",
+    "section_title": "我们的治理原则",
+    "section_description": "我们通过健全的公司治理实践确保所有利益相关者的可持续增长和价值。",
+    "principle1_title": "责任制",
+    "principle1_description": "我们对自己的行动和决策承担全面责任，确保与利益相关者的利益保持一致。",
+    "principle2_title": "透明度",
+    "principle2_description": "与利益相关者开放沟通，提供关于我们绩效的清晰和准确信息。",
+    "principle3_title": "诚信",
+    "principle3_description": "在每一次交易和交流中坚守最高的道德标准。",
+    "principle4_title": "可持续性",
+    "principle4_description": "以长期价值创造和社会责任为重点的治理。",
+    "code_title": "行为准则",
+    "code_description": "我们的行为准则为道德行为提供指导，并帮助维护我们的诚信声誉。",
+    "code_cta": "阅读行为准则 PDF"
+  },
+  "footer": {
+    "copyright": "© 2026 AIM Group - 保留所有权利。",
+    "description": "公司致力于为基础设施与资源领域提供一体化承包解决方案及全流程项目支持服务 ",
+    "useful_links": "常用链接",
+    "link_blog": "博客",
+    "link_pricing": "价格",
+    "link_about": "关于",
+    "terms": "条款",
+    "link_tos": "服务条款",
+    "link_privacy": "隐私政策",
+    "link_refund": "退款政策",
+    "support": "支持与帮助",
+    "link_support_ticket": "提交支持工单",
+    "link_terms_of_use": "使用条款"
   }
 }

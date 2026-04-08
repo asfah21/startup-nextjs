@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Snapshot"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageNameKey="about.breadcrumb_title"
+        descriptionKey="about.breadcrumb_description"
         image="/images/about/about-1.jpg"
       />
       <AboutSectionOne />

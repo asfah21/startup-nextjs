@@ -33,13 +33,86 @@
   },
   "about": {
     "title": "Driving Reliable Solutions for Sustainable Growth.",
-    "paragraph": "AIM Group provides integrated contracting and project support services for the infrastructure and resource sectors. With a strong commitment to operational excellence, safety standards, and good governance practices, AIM Group ensures reliable and efficient project delivery. The company plays an active role in supporting contractor operations at Leighton Pomalaa, contributing to consistent performance and sustainable development."
-  },
-  "footer": {
-    "copyright": "© 2026 AIM Group - All Rights Reserved."
+    "paragraph": "AIM Group provides integrated contracting and project support services for the infrastructure and resource sectors. With a strong commitment to operational excellence, safety standards, and good governance practices, AIM Group ensures reliable and efficient project delivery. The company plays an active role in supporting contractor operations at Leighton Pomalaa, contributing to consistent performance and sustainable development.",
+    "breadcrumb_title": "Snapshot",
+    "breadcrumb_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
   },
   "contact": {
     "title": "Contact Page",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+  },
+  "hero": {
+    "slide1": {
+      "title": "Empowering a Sustainable Future",
+      "description": "Committed to building solutions that support long-term environmental and social progress."
+    },
+    "slide2": {
+      "title": "Innovating for Tomorrow",
+      "description": "Driving innovation through cutting-edge technology and sustainable practices."
+    },
+    "slide3": {
+      "title": "Building Strong Communities",
+      "description": "Creating lasting impact through community engagement and collaborative partnerships."
+    }
+  },
+  "business": {
+    "breadcrumb_title": "Business",
+    "breadcrumb_description": "At PT AIM, we are committed to delivering innovative and sustainable business solutions across various sectors.",
+    "section_title": "Our Business Domains",
+    "section_description": "We specialize in providing end-to-end solutions that empower foundations and businesses to reach their maximum potential.",
+    "domain1_title": "Infrastructure",
+    "domain1_description": "Building the backbone of modern society with reliable and sustainable infrastructure projects.",
+    "domain2_title": "Technology Services",
+    "domain2_description": "Leveraging cutting-edge AI and data analytics to solve complex operational challenges.",
+    "domain3_title": "Consulting",
+    "domain3_description": "Providing expert strategic advice to help businesses navigate the ever-changing market landscape."
+  },
+  "career": {
+    "breadcrumb_title": "Career",
+    "breadcrumb_description": "Join a team that values innovation, integrity, and sustainable growth. Be a part of the AIM Group.",
+    "section_title": "Why Work With Us?",
+    "section_description": "We empower our employees to grow and innovate, providing a supportive environment where ideas can flourish.",
+    "benefit1_title": "Innovation First",
+    "benefit1_description": "Work on cutting-edge projects that push the boundaries of what is possible.",
+    "benefit2_title": "Career Growth",
+    "benefit2_description": "We invest in our people through continuous learning and development programs.",
+    "benefit3_title": "Inclusive Culture",
+    "benefit3_description": "Join a diverse team that values unique perspectives and collaborative spirit.",
+    "openings_title": "We're Hiring",
+    "openings_description": "Join our growing team in Pomalaa, Kolaka. We focus on excellence and sustainability.",
+    "send_cv": "Send Your CV",
+    "email_instruction": "or send your application via email to: recruitment@aimgroup.id"
+  },
+  "cg": {
+    "breadcrumb_title": "Corporate Governance",
+    "breadcrumb_description": "At PT AIM, we prioritize integrity, accountability, and transparency in all our business dealings and leadership actions.",
+    "section_title": "Our Governance Principles",
+    "section_description": "We ensure sustainable growth and value for all stakeholders through robust corporate governance practices.",
+    "principle1_title": "Accountability",
+    "principle1_description": "We take full responsibility for our actions and decisions, ensuring alignment with stakeholder interests.",
+    "principle2_title": "Transparency",
+    "principle2_description": "Open communication with our stakeholders, providing clear and accurate information about our performance.",
+    "principle3_title": "Integrity",
+    "principle3_description": "Upholding the highest ethical standards in every transaction and interaction.",
+    "principle4_title": "Sustainability",
+    "principle4_description": "Governance focused on long-term value creation and social responsibility.",
+    "code_title": "Code of Conduct",
+    "code_description": "Our code of conduct provides guidance for ethical behavior and helps maintain our reputation for integrity.",
+    "code_cta": "Read Code of Conduct PDF"
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 AIM Group - All Rights Reserved.",
+    "description": "Providing integrated contracting and project support services for the infrastructure and resource sectors.",
+    "useful_links": "Useful Links",
+    "link_blog": "Blog",
+    "link_pricing": "Pricing",
+    "link_about": "About",
+    "terms": "Terms",
+    "link_tos": "TOS",
+    "link_privacy": "Privacy Policy",
+    "link_refund": "Refund Policy",
+    "support": "Support & Help",
+    "link_support_ticket": "Open Support Ticket",
+    "link_terms_of_use": "Terms of Use"
   }
 }

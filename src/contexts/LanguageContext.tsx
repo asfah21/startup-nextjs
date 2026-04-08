@@ -12,7 +12,7 @@ const dictionaries = { en, id, cn };
 interface LanguageContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
-  t: (path: string) => string;
+  t: (path: string) => any;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);

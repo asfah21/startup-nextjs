@@ -33,13 +33,86 @@
   },
   "about": {
     "title": "Mendorong Solusi Handal untuk Pertumbuhan Berkelanjutan.",
-    "paragraph": "AIM Group menyediakan layanan kontrak terintegrasi dan dukungan proyek untuk sektor infrastruktur dan sumber daya. Dengan komitmen kuat terhadap keunggulan operasional, standar keselamatan, dan praktik tata kelola yang baik, AIM Group memastikan pengiriman proyek yang andal dan efisien. Perusahaan memainkan peran aktif dalam mendukung operasi kontraktor di Leighton Pomalaa, berkontribusi pada kinerja yang konsisten dan pengembangan berkelanjutan."
-  },
-  "footer": {
-    "copyright": "© 2026 AIM Group - Hak Cipta Dilindungi."
+    "paragraph": "AIM Group menyediakan layanan kontrak terintegrasi dan dukungan proyek untuk sektor infrastruktur dan sumber daya. Dengan komitmen kuat terhadap keunggulan operasional, standar keselamatan, dan praktik tata kelola yang baik, AIM Group memastikan pengiriman proyek yang andal dan efisien. Perusahaan memainkan peran aktif dalam mendukung operasi kontraktor di Leighton Pomalaa, berkontribusi pada kinerja yang konsisten dan pengembangan berkelanjutan.",
+    "breadcrumb_title": "Snapshot",
+    "breadcrumb_description": "Pelajari lebih lanjut tentang perjalanan, visi, dan komitmen kami dalam memberikan solusi terbaik untuk industri infrastruktur dan sumber daya."
   },
   "contact": {
     "title": "Halaman Kontak",
     "description": "Hubungi kami untuk informasi lebih lanjut mengenai layanan dan proyek kami. Kami siap membantu kebutuhan infrastruktur dan sumber daya Anda."
+  },
+  "hero": {
+    "slide1": {
+      "title": "Pemberdayaan yang Berkelanjutan",
+      "description": "Berkomitmen untuk membangun solusi yang mendukung kemajuan lingkungan dan sosial jangka panjang."
+    },
+    "slide2": {
+      "title": "Berinovasi untuk Masa Depan",
+      "description": "Mendorong inovasi melalui teknologi mutakhir dan praktik yang berkelanjutan."
+    },
+    "slide3": {
+      "title": "Membangun Komunitas yang Kuat",
+      "description": "Menciptakan dampak yang berkelanjutan melalui keterlibatan masyarakat dan kemitraan kolaboratif."
+    }
+  },
+  "business": {
+    "breadcrumb_title": "Bisnis",
+    "breadcrumb_description": "Di PT AIM, kami berkomitmen untuk menghadirkan solusi bisnis yang inovatif dan berkelanjutan di berbagai sektor.",
+    "section_title": "Domain Bisnis Kami",
+    "section_description": "Kami mengkhususkan diri dalam menyediakan solusi end-to-end yang memberdayakan organisasi dan bisnis untuk mencapai potensi maksimalnya.",
+    "domain1_title": "Infrastruktur",
+    "domain1_description": "Membangun fondasi masyarakat modern dengan proyek infrastruktur yang andal dan berkelanjutan.",
+    "domain2_title": "Layanan Teknologi",
+    "domain2_description": "Memanfaatkan AI mutakhir dan analitik data untuk memecahkan tantangan operasional yang kompleks.",
+    "domain3_title": "Konsultasi",
+    "domain3_description": "Memberikan saran strategis ahli untuk membantu bisnis menavigasi lanskap pasar yang terus berubah."
+  },
+  "career": {
+    "breadcrumb_title": "Karir",
+    "breadcrumb_description": "Jadilah bagian dari tim yang menghargai inovasi, integritas, dan terus berkembang bersama AIM Group.",
+    "section_title": "Mengapa Bekerja Bersama Kami?",
+    "section_description": "Kami memberdayakan karyawan untuk berkembang dan berinovasi, menyediakan lingkungan yang mendukung di mana ide-ide dapat berkembang.",
+    "benefit1_title": "Mengedepankan Inovasi",
+    "benefit1_description": "Kerjakan proyek-proyek mutakhir yang mendorong batas-batas maksimal Anda.",
+    "benefit2_title": "Pertumbuhan Karir",
+    "benefit2_description": "Kami berinvestasi pada karyawan melalui program pembelajaran dan pengembangan berkelanjutan.",
+    "benefit3_title": "Budaya Inklusif",
+    "benefit3_description": "Bergabunglah dengan tim yang beragam yang menghargai perspektif unik dan semangat kolaboratif.",
+    "openings_title": "Lowongan Terbuka",
+    "openings_description": "Bergabunglah dengan kami, AIM group mengedepankan keunggulan dan keberlanjutan.",
+    "send_cv": "Kirim CV Anda",
+    "email_instruction": "atau kirim Lamaran Anda melalui email ke: recruitment@aimgroup.id"
+  },
+  "cg": {
+    "breadcrumb_title": "Tata Kelola Perusahaan",
+    "breadcrumb_description": "Di PT AIM, kami memprioritaskan integritas, akuntabilitas, dan transparansi dalam semua urusan bisnis dan tindakan kepemimpinan kami.",
+    "section_title": "Prinsip Tata Kelola Kami",
+    "section_description": "Kami memastikan pertumbuhan berkelanjutan dan nilai bagi semua pemangku kepentingan melalui praktik tata kelola perusahaan yang kuat.",
+    "principle1_title": "Akuntabilitas",
+    "principle1_description": "Kami bertanggung penuh atas tindakan dan keputusan kami, memastikan keselarasan dengan kepentingan pemangku kepentingan.",
+    "principle2_title": "Transparansi",
+    "principle2_description": "Komunikasi terbuka dengan pemangku kepentingan, memberikan informasi yang jelas dan akurat tentang kinerja kami.",
+    "principle3_title": "Integritas",
+    "principle3_description": "Menjunjung standar etika tertinggi dalam setiap transaksi dan interaksi.",
+    "principle4_title": "Keberlanjutan",
+    "principle4_description": "Tata kelola yang berfokus pada penciptaan nilai jangka panjang dan tanggung jawab sosial.",
+    "code_title": "Kode Etik",
+    "code_description": "Kode etik kami memberikan panduan perilaku etis dan membantu menjaga reputasi integritas kami.",
+    "code_cta": "Baca PDF Kode Etik"
+  },
+  "footer": {
+    "copyright": "© 2026 AIM Group - Hak Cipta Dilindungi.",
+    "description": "Menyediakan layanan kontrak terintegrasi dan dukungan proyek untuk sektor infrastruktur dan sumber daya.",
+    "useful_links": "Link",
+    "link_blog": "Blog",
+    "link_pricing": "Harga",
+    "link_about": "Tentang",
+    "terms": "Ketentuan",
+    "link_tos": "Syarat Penggunaan",
+    "link_privacy": "Kebijakan Privasi",
+    "link_refund": "Kebijakan Pengembalian",
+    "support": "Support",
+    "link_support_ticket": "Butuh Bantuan",
+    "link_terms_of_use": "Persyaratan Penggunaan"
   }
 }

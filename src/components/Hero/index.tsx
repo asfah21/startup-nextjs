@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { useTranslation } from "@/contexts/LanguageContext";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,32 +11,45 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// Data untuk slider
-const heroSlides = [
-  {
-    id: 1,
-    image: "/images/hero/home.png",
-    title: "Empowering a Sustainable Future",
-    description: "Committed to building solutions that support long-term environmental and social progress.",
-    overlayGradient: "bg-gradient-to-r from-black/60 via-black/30 to-transparent"
-  },
-  {
-    id: 2,
-    image: "/images/mining/dt.jpg",
-    title: "Innovating for Tomorrow",
-    description: "Driving innovation through cutting-edge technology and sustainable practices.",
-    overlayGradient: "bg-gradient-to-r from-blue-900/60 via-blue-800/30 to-transparent"
-  },
-  {
-    id: 3,
-    image: "/images/mining/exca.jpg",
-    title: "Building Strong Communities",
-    description: "Creating lasting impact through community engagement and collaborative partnerships.",
-    overlayGradient: "bg-gradient-to-r from-green-900/60 via-green-800/30 to-transparent"
-  }
+const slideOverlays = [
+  "bg-gradient-to-r from-black/60 via-black/30 to-transparent",
+  "bg-gradient-to-r from-blue-900/60 via-blue-800/30 to-transparent",
+  "bg-gradient-to-r from-green-900/60 via-green-800/30 to-transparent",
+];
+
+const slideImages = [
+  "/images/hero/home.png",
+  "/images/mining/dt.jpg",
+  "/images/mining/exca.jpg",
 ];
 
 const Hero = () => {
+  const { t } = useTranslation();
+
+  const heroSlides = [
+    {
+      id: 1,
+      image: slideImages[0],
+      title: t("hero.slide1.title"),
+      description: t("hero.slide1.description"),
+      overlayGradient: slideOverlays[0],
+    },
+    {
+      id: 2,
+      image: slideImages[1],
+      title: t("hero.slide2.title"),
+      description: t("hero.slide2.description"),
+      overlayGradient: slideOverlays[1],
+    },
+    {
+      id: 3,
+      image: slideImages[2],
+      title: t("hero.slide3.title"),
+      description: t("hero.slide3.description"),
+      overlayGradient: slideOverlays[2],
+    },
+  ];
+
   return (
     <>
       <section id="home" className="relative w-full h-[60vh] xs:h-[65vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden bg-black">
