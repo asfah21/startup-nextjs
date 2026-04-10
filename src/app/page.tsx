@@ -13,6 +13,7 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import CorporateGovernancePage from "./corporate-governance/page";
+import Governance from "@/components/CorporateGovernance/Governance";
 
 export const metadata: Metadata = {
   title: "AIM Group | Home",
@@ -27,7 +28,7 @@ export default function Home() {
       <Hero />
       <HomeAbout />
       <HomeServices />
-      <CorporateGovernancePage/>
+      <Governance/>
       {/* <Features />
       <Video />
       <Brands />
