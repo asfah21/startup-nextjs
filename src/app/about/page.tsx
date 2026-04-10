@@ -1,13 +1,14 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import VisionMission from "@/components/About/VisionMission";
+import OrganizationStructure from "@/components/About/OrganizationStructure";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: "About Us | AIM Group",
+  description: "Learn more about AIM Group - our vision, mission, and commitment to excellence.",
 };
 
 const AboutPage = () => {
@@ -17,9 +18,12 @@ const AboutPage = () => {
         pageNameKey="about.breadcrumb_title"
         descriptionKey="about.breadcrumb_description"
         image="/images/about/about-1.jpg"
+        priority={true}
       />
       <AboutSectionOne />
-      <AboutSectionTwo />
+      <VisionMission />
+      <OrganizationStructure />
+      {/* <AboutSectionTwo /> */}
     </>
   );
 };

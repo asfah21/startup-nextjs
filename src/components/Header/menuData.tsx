@@ -19,6 +19,18 @@ const getMenuData = (t: (key: string) => string): Menu[] => [
         newTab: false,
       },
       {
+        id: 23,
+        title: t("header.vision_mission"),
+        path: "/about#VisionMission",
+        newTab: false,
+      },
+      {
+        id: 24,
+        title: t("header.organization_structure"),
+        path: "/about#OrganizationStructure",
+        newTab: false,
+      },
+      {
         id: 22,
         title: t("header.contact"),
         path: "/contact",
@@ -44,61 +56,61 @@ const getMenuData = (t: (key: string) => string): Menu[] => [
     path: "/career",
     newTab: false,
   },
-  {
-    id: 4,
-    title: t("header.pages"),
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: t("header.about_page"),
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: t("header.contact_page"),
-        path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: t("header.blog_grid_page"),
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: t("header.blog_sidebar_page"),
-        path: "/blog-sidebar",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: t("header.blog_details_page"),
-        path: "/blog-details",
-        newTab: false,
-      },
-      {
-        id: 46,
-        title: t("header.signin_page"),
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: t("header.signup_page"),
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: t("header.error_page"),
-        path: "/error",
-        newTab: false,
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: t("header.pages"),
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 41,
+  //       title: t("header.about_page"),
+  //       path: "/about",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 42,
+  //       title: t("header.contact_page"),
+  //       path: "/contact",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 43,
+  //       title: t("header.blog_grid_page"),
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 44,
+  //       title: t("header.blog_sidebar_page"),
+  //       path: "/blog-sidebar",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 45,
+  //       title: t("header.blog_details_page"),
+  //       path: "/blog-details",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 46,
+  //       title: t("header.signin_page"),
+  //       path: "/signin",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 47,
+  //       title: t("header.signup_page"),
+  //       path: "/signup",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 48,
+  //       title: t("header.error_page"),
+  //       path: "/error",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
 ];
 
 export default getMenuData;

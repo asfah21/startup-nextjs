@@ -9,12 +9,14 @@ const Breadcrumb = ({
   image,
   pageNameKey,
   descriptionKey,
+  priority = false,
 }: {
   pageName?: string;
   description?: string;
   image?: string;
   pageNameKey?: string;
   descriptionKey?: string;
+  priority?: boolean;
 }) => {
   const { t } = useTranslation();
 
@@ -66,6 +68,7 @@ const Breadcrumb = ({
               fill
               className="object-cover object-center"
               sizes="100vw"
+              priority={priority}
             />
             <div className="absolute top-0 left-0 h-full w-full bg-black/50"></div>
           </div>

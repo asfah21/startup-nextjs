@@ -1,5 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import HomeAbout from "@/components/About/HomeAbout";
+import HomeServices from "@/components/Home/HomeServices";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -10,6 +12,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import CorporateGovernancePage from "./corporate-governance/page";
 
 export const metadata: Metadata = {
   title: "AIM Group | Home",
@@ -22,15 +25,16 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
+      <HomeAbout />
+      <HomeServices />
+      <CorporateGovernancePage/>
+      {/* <Features />
       <Video />
       <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
       <Testimonials />
       <Pricing />
       <Blog />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }

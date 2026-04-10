@@ -13,6 +13,8 @@
     "business": "Business",
     "corporate_governance": "Corporate Governance",
     "career": "Career",
+    "vision_mission": "Vision & Mission",
+    "organization_structure": "Organization Structure",
     "pages": "Pages",
     "about_page": "About Page",
     "contact_page": "Contact Page",
@@ -35,11 +37,39 @@
     "title": "Driving Reliable Solutions for Sustainable Growth.",
     "paragraph": "AIM Group provides integrated contracting and project support services for the infrastructure and resource sectors. With a strong commitment to operational excellence, safety standards, and good governance practices, AIM Group ensures reliable and efficient project delivery. The company plays an active role in supporting contractor operations at Leighton Pomalaa, contributing to consistent performance and sustainable development.",
     "breadcrumb_title": "Snapshot",
-    "breadcrumb_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+    "breadcrumb_description": "A quick look at who we are—our vision, mission, and commitment to grow together.",
+    "operational_excellence": "Operational Excellence",
+    "safety_commitment": "Safety First Commitment",
+    "strong_governance": "Strong Governance",
+    "sustainable_growth": "Sustainable Growth",
+    "vision_title": "VISION",
+    "vision_description": "To become a leading contractor and industrial service provider in Sulawesi, grounded in professionalism, integrity, and the empowerment of local resources, while actively contributing to sustainable development in Indonesia.",
+    "mission_title": "MISSION",
+    "mission_list": [
+      "Provide high-quality construction and electrical services that are delivered on time and adhere to strict occupational health and safety (OHS) standards.",
+      "Deliver efficient, reliable heavy equipment rental solutions tailored to project requirements.",
+      "Develop competent and competitive local workforce through continuous training, certification, and mentoring programs.",
+      "Establish strategic partnerships with national and local companies to create added value and sustainable business opportunities.",
+      "Uphold integrity, social responsibility, and environmental stewardship in all operational activities.",
+      "Drive regional economic growth in Sulawesi through projects focused on community development and local infrastructure."
+    ]
   },
   "contact": {
     "title": "Contact Page",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+    "description": "Contact us for more information about our services and projects. We are ready to help your infrastructure and resource needs.",
+    "form_title": "Need Help? Contact Us",
+    "form_subtitle": "Our support team will get back to you ASAP via email.",
+    "label_name": "Your Name",
+    "placeholder_name": "Enter your name",
+    "label_email": "Your Email",
+    "placeholder_email": "Enter your email",
+    "label_message": "Your Message",
+    "placeholder_message": "Enter your message",
+    "submit_button": "Submit Message",
+    "newsletter_title": "Subscribe to receive future updates",
+    "newsletter_subtitle": "Enter your name and email to get the latest information updates from us",
+    "newsletter_button": "Subscribe",
+    "newsletter_no_spam": "No spam guaranteed, so please don't hesitate to subscribe."
   },
   "hero": {
     "slide1": {
@@ -79,7 +109,6 @@
     "benefit3_title": "Inclusive Culture",
     "benefit3_description": "Join a diverse team that values unique perspectives and collaborative spirit.",
     "openings_title": "We're Hiring",
-    "openings_description": "Join our growing team in Pomalaa, Kolaka. We focus on excellence and sustainability.",
     "send_cv": "Send Your CV",
     "email_instruction": "or send your application via email to: recruitment@aimgroup.id"
   },
@@ -96,9 +125,8 @@
     "principle3_description": "Upholding the highest ethical standards in every transaction and interaction.",
     "principle4_title": "Sustainability",
     "principle4_description": "Governance focused on long-term value creation and social responsibility.",
-    "code_title": "Code of Conduct",
-    "code_description": "Our code of conduct provides guidance for ethical behavior and helps maintain our reputation for integrity.",
-    "code_cta": "Read Code of Conduct PDF"
+    "compliance_title": "Compliance & Ethical Standards",
+    "compliance_description": "We are committed to maintaining the highest standards of regulatory compliance and professional ethics in all our operations. Our leadership team ensures that every project aligns with national regulations and industry best practices."
   },
   "footer": {
     "copyright": "\u00a9 2026 AIM Group - All Rights Reserved.",
@@ -113,6 +141,55 @@
     "link_refund": "Refund Policy",
     "support": "Support & Help",
     "link_support_ticket": "Open Support Ticket",
-    "link_terms_of_use": "Terms of Use"
+    "link_terms_of_use": "Terms of Use",
+    "office_title": "OFFICE",
+    "phone_label": "Tel."
+  },
+  "home_about": {
+    "title": "About AIM Group",
+    "description": "AIM Group is a Pomalaa-based holding that oversees two major entities: PT. AIM - Anoa Indonesia Mining and PT. AIM - Anoa Indonesia Mekongga, providing integrated solutions in mining, construction, and manpower.",
+    "subtext": "Inspired by the Anoa—symbolizing Sulawesi's strength and resilience—we provide professional end-to-end solutions while prioritizing safety, sustainability, and local empowerment.",
+    "tagline": "Local Strength, National Growth"
+  },
+  "services": {
+    "title": "Our Business Domain",
+    "description": "Rooted in the cultural land of Mekongga in Kolaka Regency, Southeast Sulawesi, AIM Group delivers integrated services to support the comprehensive development of infrastructure and industrial sectors. Backed by professional expertise, capable local resources, and strong strategic partnerships, AIM Group is committed to providing precise, efficient, and value-driven solutions at every stage of the project.",
+    "contractor_title": "General Contractor",
+    "contractor_desc": "AIM Group delivers end-to-end general contracting services, overseeing construction and infrastructure projects from planning and procurement through execution to final handover, ensuring quality, efficiency, and reliable outcomes.",
+    "contractor_scope": [
+      "Industrial facility and infrastructure construction",
+      "Civil projects and commercial buildings",
+      "Road, bridge and drainage works",
+      "Building renovation and maintenance"
+    ],
+    "mining_title": "Mining Services",
+    "mining_desc": "AIM Group delivers integrated mining solutions, covering earthworks, overburden management, and technical site development, prioritizing efficiency, safety, and environmental responsibility.",
+    "mining_scope": [
+      "Land Clearing & Earthworks",
+      "Overburden Removal & Hauling",
+      "Open Pit Mining Support",
+      "Integrated Stockpile Management",
+      "Reclamation & Rehabilitation"
+    ],
+    "rental_title": "Heavy Equipment Rental",
+    "rental_desc": "AIM provides various types of quality and ready-to-operate heavy equipment to support construction, mining and infrastructure activities. All our units are maintained regularly to provide maximum performance in the field.",
+    "rental_scope": [
+      "Excavator, Bulldozer, Dump Truck",
+      "Loader, Vibro Roller, Grader",
+      "Crane, Forklift and other supporting equipment"
+    ],
+    "scope_label": "Scope of Work"
+  },
+  "org": {
+    "title": "Organization Structure",
+    "description": "Our management structure is designed to ensure smooth operational integration, compliance with industry standards, and efficiency in every service we provide.",
+    "commissioner": "COMMISSIONER",
+    "director": "DIRECTOR",
+    "legal": "LEGAL",
+    "fat": "FAT",
+    "hrga": "HRGA",
+    "procurement": "PROCUREMENT",
+    "engineering": "ENGINEERING",
+    "hse": "HSE"
   }
 }

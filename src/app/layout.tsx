@@ -1,13 +1,14 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
 import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "AIM Group",
   description: "Mining & Infrastructure Solutions",
 };

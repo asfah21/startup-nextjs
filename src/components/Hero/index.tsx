@@ -18,7 +18,7 @@ const slideOverlays = [
 ];
 
 const slideImages = [
-  "/images/hero/home.png",
+  "/images/mining/ore.png",
   "/images/mining/dt.jpg",
   "/images/mining/exca.jpg",
 ];

@@ -54,7 +54,7 @@ const CareerPage = () => {
 
           <div className="bg-white dark:bg-dark p-8 md:p-12 shadow-three rounded-xs text-center">
             <h3 className="mb-4 text-2xl font-bold text-black dark:text-white">{t("career.openings_title")}</h3>
-            <p className="mb-8 text-base font-medium text-body-color">{t("career.openings_description")}</p>
+            {/* <p className="mb-8 text-base font-medium text-body-color">{t("career.openings_description")}</p> */}
             <a
               href="mailto:recruitment@aimgroup.id"
               className="bg-primary text-white py-4 px-8 rounded-xl font-semibold hover:bg-primary/90 duration-300 inline-block"

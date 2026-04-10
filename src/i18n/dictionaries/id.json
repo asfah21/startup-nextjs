@@ -13,6 +13,8 @@
     "business": "Bisnis",
     "corporate_governance": "Tata Kelola Perusahaan",
     "career": "Karir",
+    "vision_mission": "Visi Misi",
+    "organization_structure": "Struktur Organisasi",
     "pages": "Halaman",
     "about_page": "Halaman Tentang",
     "contact_page": "Halaman Kontak",
@@ -32,14 +34,42 @@
     "career": "Karir"
   },
   "about": {
-    "title": "Mendorong Solusi Handal untuk Pertumbuhan Berkelanjutan.",
+    "title": "Menyediakan Solusi terbaik yang berkesinambungan",
     "paragraph": "AIM Group menyediakan layanan kontrak terintegrasi dan dukungan proyek untuk sektor infrastruktur dan sumber daya. Dengan komitmen kuat terhadap keunggulan operasional, standar keselamatan, dan praktik tata kelola yang baik, AIM Group memastikan pengiriman proyek yang andal dan efisien. Perusahaan memainkan peran aktif dalam mendukung operasi kontraktor di Leighton Pomalaa, berkontribusi pada kinerja yang konsisten dan pengembangan berkelanjutan.",
     "breadcrumb_title": "Snapshot",
-    "breadcrumb_description": "Pelajari lebih lanjut tentang perjalanan, visi, dan komitmen kami dalam memberikan solusi terbaik untuk industri infrastruktur dan sumber daya."
+    "breadcrumb_description": "Sekilas tentang kami, visi dan misi, serta komitmen untuk tumbuh bersama.",
+    "operational_excellence": "Operational Excellence",
+    "safety_commitment": "Safety First Commitment",
+    "strong_governance": "Strong Governance",
+    "sustainable_growth": "Sustainable Growth",
+    "vision_title": "VISI",
+    "vision_description": "Menjadi perusahaan kontraktor dan penyedia jasa industri terkemuka di Sulawesi, yang berlandaskan profesionalisme, integritas, dan pemberdayaan sumber daya lokal, serta berperan aktif dalam mendukung pembangunan berkelanjutan di Indonesia.",
+    "mission_title": "MISI",
+    "mission_list": [
+      "Menyediakan layanan konstruksi dan elektrikal yang berkualitas tinggi, tepat waktu, dan berstandar keselamatan kerja (K3) yang ketat.",
+      "Memberikan solusi penyewaan alat berat yang efisien, handal, dan sesuai kebutuhan proyek.",
+      "Mengembangkan tenaga kerja lokal yang kompeten dan berdaya saing melalui pelatihan, sertifikasi, dan pendampingan berkelanjutan.",
+      "Membangun kemitraan strategis dengan perusahaan nasional dan lokal untuk menciptakan nilai tambah dan peluang bisnis berkelanjutan.",
+      "Menjaga integritas, tanggung jawab sosial, dan kepedulian terhadap lingkungan dalam setiap aktivitas operasional perusahaan.",
+      "Mendorong pertumbuhan ekonomi daerah Sulawesi melalui proyek-proyek yang berorientasi pada pembangunan masyarakat dan infrastruktur lokal"
+    ]
   },
   "contact": {
     "title": "Halaman Kontak",
-    "description": "Hubungi kami untuk informasi lebih lanjut mengenai layanan dan proyek kami. Kami siap membantu kebutuhan infrastruktur dan sumber daya Anda."
+    "description": "Hubungi kami untuk informasi lebih lanjut mengenai layanan dan proyek kami. Tema kami siap membantu Anda.",
+    "form_title": "Butuh Bantuan? Hubungi Kami",
+    "form_subtitle": "Tim dukungan kami akan segera menghubungi Anda melalui email.",
+    "label_name": "Nama Anda",
+    "placeholder_name": "Masukkan nama Anda",
+    "label_email": "Email Anda",
+    "placeholder_email": "Masukkan email Anda",
+    "label_message": "Pesan Anda",
+    "placeholder_message": "Masukkan pesan Anda",
+    "submit_button": "Kirim Pesan",
+    "newsletter_title": "Berlangganan untuk info terbaru",
+    "newsletter_subtitle": "Masukan nama dan email anda untuk mendapatkan update informasi terbaru dari kami",
+    "newsletter_button": "Berlangganan",
+    "newsletter_no_spam": "Kami menjamin tidak ada spam, jadi jangan ragu untuk berlangganan."
   },
   "hero": {
     "slide1": {
@@ -69,7 +99,7 @@
   },
   "career": {
     "breadcrumb_title": "Karir",
-    "breadcrumb_description": "Jadilah bagian dari tim yang menghargai inovasi, integritas, dan terus berkembang bersama AIM Group.",
+    "breadcrumb_description": "Jadilah bagian dari tim yang menjunjung inovasi, integritas, dan tumbuh bersama AIM Group.",
     "section_title": "Mengapa Bekerja Bersama Kami?",
     "section_description": "Kami memberdayakan karyawan untuk berkembang dan berinovasi, menyediakan lingkungan yang mendukung di mana ide-ide dapat berkembang.",
     "benefit1_title": "Mengedepankan Inovasi",
@@ -79,7 +109,6 @@
     "benefit3_title": "Budaya Inklusif",
     "benefit3_description": "Bergabunglah dengan tim yang beragam yang menghargai perspektif unik dan semangat kolaboratif.",
     "openings_title": "Lowongan Terbuka",
-    "openings_description": "Bergabunglah dengan kami, AIM group mengedepankan keunggulan dan keberlanjutan.",
     "send_cv": "Kirim CV Anda",
     "email_instruction": "atau kirim Lamaran Anda melalui email ke: recruitment@aimgroup.id"
   },
@@ -96,9 +125,8 @@
     "principle3_description": "Menjunjung standar etika tertinggi dalam setiap transaksi dan interaksi.",
     "principle4_title": "Keberlanjutan",
     "principle4_description": "Tata kelola yang berfokus pada penciptaan nilai jangka panjang dan tanggung jawab sosial.",
-    "code_title": "Kode Etik",
-    "code_description": "Kode etik kami memberikan panduan perilaku etis dan membantu menjaga reputasi integritas kami.",
-    "code_cta": "Baca PDF Kode Etik"
+    "compliance_title": "Standar Kepatuhan & Etika",
+    "compliance_description": "Kami berkomitmen untuk menjaga standar tertinggi dalam kepatuhan regulasi dan etika profesional di semua operasional kami. Tim kepemimpinan kami memastikan bahwa setiap proyek selaras dengan peraturan nasional dan praktik terbaik industri."
   },
   "footer": {
     "copyright": "© 2026 AIM Group - Hak Cipta Dilindungi.",
@@ -113,6 +141,59 @@
     "link_refund": "Kebijakan Pengembalian",
     "support": "Support",
     "link_support_ticket": "Butuh Bantuan",
-    "link_terms_of_use": "Persyaratan Penggunaan"
+    "link_terms_of_use": "Persyaratan Penggunaan",
+    "office_title": "OFFICE",
+    "phone_label": "Telp."
+  },
+  "home_about": {
+    "title": "Tentang AIM Group",
+    "description": "AIM Group adalah induk perusahaan berbasis di Pomalaa yang membawahi dua entitas utama: PT. AIM - Anoa Indonesia Mining dan PT. AIM - Anoa Indonesia Mekongga, memberikan solusi terintegrasi di bidang pertambangan, konstruksi, dan tenaga kerja.",
+    "entity1": "PT. AIM - Anoa Indonesia Mining",
+    "entity1_desc": "Dukungan Penambangan & Sumber Daya",
+    "entity2": "PT. AIM - Anoa Indonesia Mekongga",
+    "entity2_desc": "Konstruksi & Kontrak Umum",
+    "subtext": "Terinspirasi oleh Anoa—simbol kekuatan dan ketahanan Sulawesi—kami memberikan solusi profesional dengan mengutamakan keselamatan, keberlanjutan, dan pemberdayaan lokal.",
+    "tagline": "Kekuatan Lokal, Pertumbuhan Nasional"
+  },
+  "services": {
+    "title": "Domain Bisnis Kami",
+    "description": "Berbasis di wilayah bumi Mekongga, Kabupaten Kolaka, Sulawesi Tenggara, AIM Group menghadirkan layanan terintegrasi untuk mendukung pengembangan infrastruktur dan sektor industri secara menyeluruh. Dengan dukungan tenaga profesional, sumber daya lokal yang kompeten, serta kolaborasi dengan mitra strategis, AIM Group berkomitmen memberikan solusi yang tepat, efisien, dan bernilai tambah di setiap tahap proyek.",
+    "contractor_title": "General Contractor",
+    "contractor_desc": "AIM Group menyediakan layanan kontraktor umum secara menyeluruh, mencakup pengelolaan proyek konstruksi dan infrastruktur dari tahap perencanaan, pengadaan, pelaksanaan hingga serah terima akhir dengan mengedepankan kualitas, efisiensi, dan keandalan.",
+    "contractor_scope": [
+      "Pembangunan fasilitas industri dan infrastruktur",
+      "Proyek sipil dan bangunan komersial",
+      "Pekerjaan jalan, jembatan dan drainase",
+      "Renovasi dan pemeliharaan bangunan"
+    ],
+    "mining_title": "Jasa Pertambangan",
+    "mining_desc": "AIM Group menyediakan solusi pertambangan terintegrasi, mencakup pekerjaan tanah, pengelolaan overburden, hingga pengembangan teknis lokasi dengan fokus pada efisiensi, keselamatan, dan tanggung jawab lingkungan.",
+    "mining_scope": [
+      "Pematangan Lahan & Earthworks",
+      "Pengupasan & Pengangkutan Overburden",
+      "Dukungan Operasional Tambang Terbuka",
+      "Manajemen Stockpile Terintegrasi",
+      "Reklamasi & Rehabilitasi Lingkungan"
+    ],
+    "rental_title": "Heavy Equipment Rental",
+    "rental_desc": "AIM menyediakan berbagai jenis alat berat berkualitas dan siap beroperasi untuk mendukung aktivitas konstruksi, pertambangan, dan infrastruktur. Semua unit kami dirawat secara rutin agar dapat memberikan performa maksimal di lapangan.",
+    "rental_scope": [
+      "Excavator, Bulldozer, Dump Truck",
+      "Loader, Vibro Roller, Grader",
+      "Crane, Forklift dan alat pendukung lainnya"
+    ],
+    "scope_label": "Ruang Lingkup"
+  },
+  "org": {
+    "title": "Struktur Organisasi",
+    "description": "Struktur manajemen kami dirancang untuk memastikan integrasi operasional yang lancar, kepatuhan terhadap standar industri, dan efisiensi dalam setiap layanan yang kami berikan.",
+    "commissioner": "KOMISARIS",
+    "director": "DIREKTUR",
+    "legal": "LEGAL",
+    "fat": "FAT",
+    "hrga": "HRGA",
+    "procurement": "PROCUREMENT",
+    "engineering": "ENGINEERING",
+    "hse": "HSE"
   }
 }

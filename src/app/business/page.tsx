@@ -1,5 +1,6 @@
 "use client";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import HomeServices from "@/components/Home/HomeServices";
 import { useTranslation } from "@/contexts/LanguageContext";
 
 const BusinessPage = () => {
@@ -10,8 +11,11 @@ const BusinessPage = () => {
       <Breadcrumb
         pageNameKey="business.breadcrumb_title"
         descriptionKey="business.breadcrumb_description"
+        image="/images/mining/dt.jpg"
+        priority={true}
       />
-      <section className="py-16 md:py-20 lg:py-28">
+      <HomeServices/>
+      {/* <section className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -41,7 +45,7 @@ const BusinessPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
