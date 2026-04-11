@@ -9,7 +9,7 @@ const Breadcrumb = ({
   image,
   pageNameKey,
   descriptionKey,
-  priority = false,
+  priority = true,
 }: {
   pageName?: string;
   description?: string;

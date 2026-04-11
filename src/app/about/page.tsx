@@ -17,7 +17,7 @@ const AboutPage = () => {
       <Breadcrumb
         pageNameKey="about.breadcrumb_title"
         descriptionKey="about.breadcrumb_description"
-        image="/images/about/about-1.jpg"
+        image="/images/about/about-1.webp"
         priority={true}
       />
       <AboutSectionOne />

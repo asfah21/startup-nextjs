@@ -30,7 +30,7 @@ const BlogSidebarPage = () => {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
-                            src="/images/blog/author-02.png"
+                            src="/images/blog/author-02.webp"
                             alt="author"
                             fill
                             sizes="40px"
@@ -114,7 +114,7 @@ const BlogSidebarPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="relative aspect-97/60 w-full sm:aspect-97/44">
                       <Image
-                        src="/images/blog/blog-details-01.jpg"
+                        src="/images/blog/blog-details-01.webp"
                         alt="image"
                         fill
                         sizes="(max-width: 1024px) 100vw, 800px"
@@ -378,7 +378,7 @@ const BlogSidebarPage = () => {
                   <li className="border-body-color/10 mb-6 border-b pb-6 dark:border-white/10">
                     <RelatedPost
                       title="Best way to boost your online sales."
-                      image="/images/blog/post-01.jpg"
+                      image="/images/blog/post-01.webp"
                       slug="#"
                       date="12 Feb 2025"
                     />
@@ -386,7 +386,7 @@ const BlogSidebarPage = () => {
                   <li className="border-body-color/10 mb-6 border-b pb-6 dark:border-white/10">
                     <RelatedPost
                       title="50 Best web design tips & tricks that will help you."
-                      image="/images/blog/post-02.jpg"
+                      image="/images/blog/post-02.webp"
                       slug="#"
                       date="15 Feb, 2024"
                     />
@@ -394,7 +394,7 @@ const BlogSidebarPage = () => {
                   <li>
                     <RelatedPost
                       title="The 8 best landing page builders, reviewed"
-                      image="/images/blog/post-03.jpg"
+                      image="/images/blog/post-03.webp"
                       slug="#"
                       date="05 Jun, 2024"
                     />

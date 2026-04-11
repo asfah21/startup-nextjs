@@ -18,9 +18,9 @@ const slideOverlays = [
 ];
 
 const slideImages = [
-  "/images/mining/ore.jpg",
-  "/images/mining/dt.jpg",
-  "/images/mining/exca.jpg",
+  "/images/mining/ore.webp",
+  "/images/mining/dt.webp",
+  "/images/mining/exca.webp",
 ];
 
 const Hero = () => {
@@ -84,8 +84,8 @@ const Hero = () => {
                   fill
                   className="object-cover object-center"
                   sizes="100vw"
-                  priority={slide.id === 1}
-                  quality={90}
+                  priority={true}
+                  quality={75}
                 />
                 {/* Overlay gradient per slide */}
                 <div className={`absolute inset-0 ${slide.overlayGradient} z-10`} />

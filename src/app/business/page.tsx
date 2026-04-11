@@ -11,7 +11,7 @@ const BusinessPage = () => {
       <Breadcrumb
         pageNameKey="business.breadcrumb_title"
         descriptionKey="business.breadcrumb_description"
-        image="/images/mining/dt.jpg"
+        image="/images/mining/dt.webp"
         priority={true}
       />
       <HomeServices/>

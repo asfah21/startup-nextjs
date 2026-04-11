@@ -21,7 +21,7 @@ const OrganizationStructure = () => {
         <div className="mx-auto max-w-[1000px]">
           <div className="relative overflow-hidden rounded-3xl bg-white p-4 shadow-two dark:bg-dark border border-gray-100 dark:border-white/5">
             <Image
-              src="/images/about/so.png"
+              src="/images/about/so.webp"
               alt="AIM Group Organization Structure"
               width={1200}
               height={800}
