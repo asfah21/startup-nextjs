@@ -15,7 +15,7 @@ const ContactPage = () => {
       <Breadcrumb
         pageNameKey="contact.title"
         descriptionKey="contact.description"
-        image="/images/about/ct.webp"
+        image="/images/about/ct.avif"
         priority={true}
       />
 

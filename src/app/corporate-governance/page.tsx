@@ -9,7 +9,7 @@ const CorporateGovernancePage = () => {
       <Breadcrumb
         pageNameKey="cg.breadcrumb_title"
         descriptionKey="cg.breadcrumb_description"
-        image="/images/corporate/01.webp"
+        image="/images/corporate/01.avif"
         priority={true}
       />
 

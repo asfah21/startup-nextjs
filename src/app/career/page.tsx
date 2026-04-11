@@ -10,7 +10,7 @@ const CareerPage = () => {
       <Breadcrumb
         pageNameKey="career.breadcrumb_title"
         descriptionKey="career.breadcrumb_description"
-        image="/images/career/career-1.webp"
+        image="/images/career/career-1.avif"
       />
       <section className="py-16 md:py-20 lg:py-28">
         <div className="container">
