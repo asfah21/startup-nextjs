@@ -57,7 +57,7 @@
   "contact": {
     "title": "联系页面",
     "description": "请联系我们了解更多关于我们的服务和项目的信息。我们随时为您提供基础设施和资源需求方面的帮助。",
-    "form_title": "需要帮助？联系我们",
+    "form_title": "需要帮助？提交工单",
     "form_subtitle": "我们的支持团队将尽快通过电子邮件给您答复。",
     "label_name": "您的姓名",
     "placeholder_name": "输入您的姓名",
@@ -65,7 +65,7 @@
     "placeholder_email": "输入您的电子邮件",
     "label_message": "您的信息",
     "placeholder_message": "输入您的信息",
-    "submit_button": "发送信息",
+    "submit_button": "提交工单",
     "newsletter_title": "订阅以接收未来更新",
     "newsletter_subtitle": "输入您的姓名和电子邮件以获取我们的最新信息更新",
     "newsletter_button": "订阅",

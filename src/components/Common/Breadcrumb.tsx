@@ -69,6 +69,7 @@ const Breadcrumb = ({
               className="object-cover object-center"
               sizes="100vw"
               priority={priority}
+              unoptimized={true}
             />
             <div className="absolute top-0 left-0 h-full w-full bg-black/50"></div>
           </div>

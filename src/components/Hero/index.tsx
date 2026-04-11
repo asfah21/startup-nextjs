@@ -85,7 +85,7 @@ const Hero = () => {
                   className="object-cover object-center"
                   sizes="100vw"
                   priority={true}
-                  quality={75}
+                  unoptimized={true}
                 />
                 {/* Overlay gradient per slide */}
                 <div className={`absolute inset-0 ${slide.overlayGradient} z-10`} />
