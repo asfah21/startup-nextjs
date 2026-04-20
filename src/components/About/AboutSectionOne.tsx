@@ -59,13 +59,6 @@ const AboutSectionOne = () => {
                   sizes="(max-width: 960px) 70vw, 400px"
                   className="rounded-xl mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
-                {/* <Image
-                  src="/images/about/about-1.avif"
-                  alt="about-image"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 500px"
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                /> */}
               </div>
             </div>
           </div>

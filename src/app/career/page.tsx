@@ -40,7 +40,14 @@ const CareerPage = () => {
 
           {/* Pamphlet Section */}
           <div className="mb-20">
-            <div className="flex flex-wrap justify-center gap-8 lg:gap-12">
+            <div className="flex flex-wrap justify-center gap-8 lg:gap-12">              
+              <div className="w-full max-w-[700px] shadow-two dark:shadow-none hover:shadow-primary/20 transition-all duration-300 rounded-xl overflow-hidden border border-stroke dark:border-strokedark bg-white dark:bg-gray-dark">
+                <img
+                  src="/images/career/Payroll.avif"
+                  alt="Hiring Pamphlet Payroll"
+                  className="w-full h-auto"
+                />
+              </div>
               <div className="w-full max-w-[700px] shadow-two dark:shadow-none hover:shadow-primary/20 transition-all duration-300 rounded-xl overflow-hidden border border-stroke dark:border-strokedark bg-white dark:bg-gray-dark">
                 <img
                   src="/images/career/pamflet-1.webp"
